@@ -18,7 +18,7 @@
   color: black;
 }
 
-.intro {
+.section {
     display: flex;
     border-radius: 10px;
     align-items: center;
