@@ -1,0 +1,28 @@
+.navbar {
+    background-color: rgb(81, 195, 252);
+    height: 60px;
+    display: flex;
+}
+
+.navbar a {
+    color: rgb(5, 79, 162);
+    text-decoration: none;
+    padding: 0 40px 0 40px;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar .other-links{
+    margin-left: auto;
+    display: flex;
+}
+
+.other-links a {
+    color: black;
+}
+
+.navbar a:hover {
+  background-color:rgb(85, 200, 221);
+  color: rgb(233, 239, 255);
+}
