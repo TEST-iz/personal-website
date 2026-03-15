@@ -29,6 +29,32 @@
     width: 500px;
 }
 
+.section.projects {
+    height: 500px;
+    width: 700px
+}
+
+
+
+.frame {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.left-frame {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.intro {
+    background-color: lightblue;
+    display:flex;
+    flex-direction: row;
+}
+
 .intro .profile-pic {
     margin-right: 20px;
 }
