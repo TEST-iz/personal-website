@@ -26,3 +26,12 @@
   background-color:rgb(85, 200, 221);
   color: rgb(233, 239, 255);
 }
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.content h1 {
+    align-self: center;
+}
