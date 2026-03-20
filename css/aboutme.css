@@ -55,6 +55,9 @@
     height: 600px;
     width: 700px;
     margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
 }
 
 .pfp {
