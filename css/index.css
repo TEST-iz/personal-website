@@ -114,3 +114,18 @@
     font-size: 20px;
     align-self: center;
 }
+
+.hr {
+    width: 200%;
+    height: 1px;
+    border: none;
+    margin-left: -50%;
+    margin-bottom: 0px;
+    background: linear-gradient(
+        to right,
+        transparent 0%,
+        rgba(0, 0, 0, 0.7) 25%, 
+        rgba(0, 0, 0, 0.7) 75%, 
+        transparent 100%
+    );
+}
