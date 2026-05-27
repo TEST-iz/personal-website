@@ -5,7 +5,7 @@
     padding: 20px;
     border: 2px solid rgb(18,105,204);
     margin: 20px;
-    height: 200px;
+    height: 250px;
     width: 500px;
     transition: transform 0.10s ease
 }
@@ -15,7 +15,7 @@
 }
 
 .section.projects {
-    height: 500px;
+    height: 604px;
     width: 700px;
     display: flex;
     flex-direction: column;
@@ -88,6 +88,10 @@
 .contactInfo ul {
     font-size: 20px;
     align-self: center;
+}
+
+.contactInfo li {
+    margin-bottom: 5px;
 }
 
 .hr {
