@@ -1,0 +1,101 @@
+.section {
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    padding: 20px;
+    border: 2px solid rgb(18,105,204);
+    margin: 20px;
+    height: 200px;
+    width: 500px;
+}
+
+.section.projects {
+    height: 500px;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.section h2 {
+    margin-top: 10px;
+}
+
+.frame {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.leftFrame {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.intro {
+    display:flex;
+    flex-direction: row;
+}
+
+.intro .profilePic {
+    margin-right: 20px;
+}
+
+.intro .introContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 30px;
+    align-items: flex-start;
+    height: 100%;
+}
+
+.intro .introContent .introTitle {
+    display: flex;
+    align-items: top;
+    font-size: 24px;
+}
+
+.intro .introContent .introShort {
+    display: flex;
+    align-items: top;
+    font-size: 17px;
+}
+
+.section.contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.contactInfo {
+    padding-top: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactInfo h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.contactInfo ul {
+    font-size: 20px;
+    align-self: center;
+}
+
+.hr {
+    width: 200%;
+    height: 1px;
+    border: none;
+    margin-left: -50%;
+    margin-bottom: 0px;
+    background: linear-gradient(
+        to right,
+        transparent 0%,
+        rgba(0, 0, 0, 0.7) 25%, 
+        rgba(0, 0, 0, 0.7) 75%, 
+        transparent 100%
+    );
+}

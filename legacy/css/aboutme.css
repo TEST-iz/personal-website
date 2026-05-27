@@ -1,0 +1,104 @@
+.navbar {
+    background-color: rgb(81, 195, 252);
+    height: 60px;
+    display: flex;
+}
+
+.navbar a {
+    color: rgb(5, 79, 162);
+    text-decoration: none;
+    padding: 0 40px 0 40px;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar .other-links{
+    margin-left: auto;
+    display: flex;
+}
+
+.other-links a {
+    color: black;
+}
+
+.navbar a:hover {
+  background-color:rgb(85, 200, 221);
+  color: rgb(233, 239, 255);
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.section {
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    padding: 20px;
+    border: 2px solid rgb(18,105,204);
+    margin: 20px;
+    height: 200px;
+    width: 500px;
+    background-color: rgb(109,154,199);
+}
+
+.section.info {
+    margin-right: auto;
+    height: 560px;
+    flex-direction: column;
+}
+
+.aboutme {
+    height: 600px;
+    width: 700px;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.pfp {
+    margin-top: 20px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.contact {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact h1 {
+    margin-bottom: 0px;
+}
+
+.contact ul {
+    font-size: 20px;
+}
+
+article {
+    font-size: 20px;
+}
+
+.aboutme h1 {
+    text-decoration-thickness: 1.5px;
+}
+
+.hr {
+    width: 200%;
+    height: 1px;
+    border: none;
+    margin-left: -50%;
+    margin-bottom: 0px;
+    background: linear-gradient(
+        to right,
+        transparent 0%,
+        rgba(0, 0, 0, 0.7) 25%, 
+        rgba(0, 0, 0, 0.7) 75%, 
+        transparent 100%
+    );
+}
