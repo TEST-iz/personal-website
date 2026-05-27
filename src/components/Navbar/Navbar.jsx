@@ -1,4 +1,6 @@
 import './Navbar.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 function Navbar() {
     return (
@@ -10,7 +12,7 @@ function Navbar() {
 
         <div class="other-links">
             <a href="https://github.com/TEST-iz" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-                <i class="fa-brands fa-github fa-2xl"></i>
+                <FontAwesomeIcon icon={faGithub} size="2xl" />
             </a>
         </div>
 

@@ -1,6 +1,8 @@
 import styles from "./projects.module.css";
 import gameplay2 from "../assets/gameplay2.webp";
-import pong from "../assets/pong.webp"
+import pong from "../assets/pong.webp";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 function Projects() {
     return (
@@ -23,7 +25,7 @@ function Projects() {
                     <div className={styles.clickables}>
                         <a className={styles.button} href="https://test-iz.github.io/Zombie-Survival-Game/" target="_blank" rel="noopener noreferrer">Try Me Out!</a>
                         <a className={`${styles.button} ${styles.repo}`} href="https://github.com/TEST-iz/Zombie-Survival-Game" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-                            <i className="fa-brands fa-github fa-2xl"></i>
+                            <FontAwesomeIcon icon={faGithub} size="2xl" />
                         </a>
                     </div>
                 </div>
@@ -36,7 +38,7 @@ function Projects() {
                     </p>
                     <div className={styles.clickables}>
                         <a className={`${styles.button} ${styles.repo}`} href="https://github.com/TEST-iz/chip8-interpreter" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-                            <i className="fa-brands fa-github fa-2xl"></i>
+                            <FontAwesomeIcon icon={faGithub} size="2xl" />
                         </a>
                     </div>
                 </div>
