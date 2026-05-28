@@ -1,14 +1,15 @@
 import './Navbar.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { Link } from "react-router";
 
 function Navbar() {
     return (
         <div className="navbar">
-        <a href="home.html" rel="noopener noreferrer">Home</a>
-        <a href="aboutme.html" rel="noopener noreferrer">About Me</a>
-        <a href="projects.html" rel="noopener noreferrer">Projects</a>
-        <a href="home.html" rel="noopener noreferrer">Skills</a>
+        <Link to="home">Home</Link>
+        <Link to="aboutme">About Me</Link>
+        <Link to="projects">Projects</Link>
+        <Link to="home">Skills</Link>
 
         <div class="other-links">
             <a href="https://github.com/TEST-iz" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
