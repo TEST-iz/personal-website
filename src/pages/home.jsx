@@ -1,5 +1,5 @@
 import styles from "./home.module.css";
-import pfp from "../assets/test.jpg";
+import pfp from "../assets/images.png";
 import gameplay2 from "../assets/gameplay2.webp";
 import pong from "../assets/pong.webp";
 import { Link } from "react-router";

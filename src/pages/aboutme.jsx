@@ -1,5 +1,5 @@
 import styles from "./aboutme.module.css";
-import pfp from "../assets/test.jpg";
+import pfp from "../assets/images.png";
 
 function AboutMe() {
     return (
