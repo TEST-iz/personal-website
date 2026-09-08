@@ -2,6 +2,7 @@ import { createBrowserRouter, RouterProvider } from "react-router";
 import Home from './pages/home.jsx';
 import AboutMe from './pages/aboutme.jsx';
 import Projects from './pages/projects.jsx';
+import Skills from "./pages/skills.jsx";
 import Navbar from './components/Navbar/Navbar.jsx';
 import { Outlet } from "react-router";
 
@@ -23,7 +24,8 @@ const router = createBrowserRouter([
     children: [
       {path: "home", element: <Home />},
       {path: "aboutme", element: <AboutMe />},
-      {path: "projects", element: <Projects />}
+      {path: "projects", element: <Projects />},
+      {path: "skills", element: <Skills />}
     ]
   },
 ]);

@@ -9,7 +9,7 @@ function Navbar() {
         <Link to="home">Home</Link>
         <Link to="aboutme">About Me</Link>
         <Link to="projects">Projects</Link>
-        <Link to="home">Skills</Link>
+        <Link to="skills">Skills</Link>
 
         <div class="other-links">
             <a href="https://github.com/TEST-iz" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
