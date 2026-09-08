@@ -43,16 +43,16 @@ function Projects() {
                     </div>
                 </div>
                 <div className={`${styles.project} ${styles.section}`}>
-                    <h3>Gameboy Emulator</h3>
+                    <h3>Paper Trading Platform</h3>
                     <p>Currently in progress</p>
                 </div>
                 <div className={`${styles.project} ${styles.section}`}>
-                    <h3>Paper Trading AI</h3>
-                    <p>Currently in progres. Either paper trading or training an AI to play a game</p>
+                    <h3>Coming Soon!</h3>
+                    <p></p>
                 </div>
                 <div className={`${styles.project} ${styles.section}`}>
-                    <h3>Hardware Project</h3>
-                    <p>IDK man custom emulator or something grr</p>
+                    <h3>Coming Sooon!</h3>
+                    <p></p>
                 </div>
             </div>
         </section>
