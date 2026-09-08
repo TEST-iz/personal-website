@@ -12,9 +12,9 @@ function AboutMe() {
                         <h1>Contact</h1>
                         <hr className={styles.hr} />
                         <ul>
-                            <li>email</li>
-                            <li>github</li>
-                            <li>linkedin</li>
+                            <li><a href="mailto:shieric984@gmail.com" target="_blank" rel="noopener noreferrer">email</a></li>
+                            <li><a href="https://github.com/TEST-iz" target="_blank" rel="noopener noreferrer">github</a></li>
+                            <li><a href="https://www.linkedin.com/in/eric-shi-9bb36b428/" target="_blank" rel="noopener noreferrer">linkedin</a></li>
                         </ul>
                     </div>
                 </div>
